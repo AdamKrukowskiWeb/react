@@ -1,19 +1,26 @@
 {
-  "name": "react",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AdamKrukowskiWeb/react.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AdamKrukowskiWeb/react/issues"
-  },
-  "homepage": "https://github.com/AdamKrukowskiWeb/react#readme"
+    "name": "react",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AdamKrukowskiWeb/react.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/AdamKrukowskiWeb/react/issues"
+    },
+    "homepage": "https://github.com/AdamKrukowskiWeb/react#readme",
+    "dependencies": {
+        "babel-preset-react": "^6.11.1",
+        "babelify": "^7.3.0",
+        "react": "^15.2.1",
+        "react-dom": "^15.2.1",
+        "watchify": "^3.7.0"
+    }
 }
